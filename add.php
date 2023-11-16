@@ -67,7 +67,7 @@ if (isset($_POST['button-save'])) {
       <span class="check"></span>
       <br />
 
-      <div class="error"><?= $errors['sku'] ?? '' ?></div>
+      <div class="Invalid_Input"><?= $errors['sku'] ?? '' ?></div>
 
       <br />
       <label for="name">Name *</label>
@@ -77,7 +77,7 @@ if (isset($_POST['button-save'])) {
       <span class="check"></span>
       <br />
 
-      <div class="error"><?= $errors['name'] ?? '' ?></div>
+      <div class="Invalid_Input"><?= $errors['name'] ?? '' ?></div>
 
       <br />
       <label for="price">Price ($) *</label>
@@ -87,7 +87,7 @@ if (isset($_POST['button-save'])) {
       <span class="check"></span>
       <br />
 
-      <div class="error"><?= $errors['price'] ?? '' ?></div>
+      <div class="Invalid_Input"><?= $errors['price'] ?? '' ?></div>
       <br />
 
       <label for="productType">Type of product *</label>
