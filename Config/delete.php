@@ -1,7 +1,7 @@
 <?php
 require_once 'dbc.php';
-require_once './ProductsController.php';
-require_once './Classes/product.php';
+require_once '../ProductsController.php';
+require_once '../Classes/product.php';
 
 if ($_SERVER['REQUEST_METHOD']==='POST') {
 
